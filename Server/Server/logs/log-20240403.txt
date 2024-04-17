@@ -1,0 +1,41 @@
+2024-04-03 21:29:58.051 +03:00 [INF] Now listening on: https://localhost:7254
+2024-04-03 21:29:58.077 +03:00 [INF] Now listening on: http://localhost:5035
+2024-04-03 21:29:58.079 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-03 21:29:58.079 +03:00 [INF] Hosting environment: Development
+2024-04-03 21:29:58.080 +03:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-04-03 21:34:13.377 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 3.5169 ms
+2024-04-03 21:34:13.427 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 37.4144 ms
+2024-04-03 22:14:31.535 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.7598 ms
+2024-04-03 22:14:31.544 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.3328 ms
+2024-04-03 22:14:33.033 +03:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 2419589.0921 ms
+2024-04-03 22:17:13.054 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0562 ms
+2024-04-03 22:17:13.060 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2061 ms
+2024-04-03 22:21:37.343 +03:00 [INF] Now listening on: https://localhost:7254
+2024-04-03 22:21:37.371 +03:00 [INF] Now listening on: http://localhost:5035
+2024-04-03 22:21:37.373 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-03 22:21:37.373 +03:00 [INF] Hosting environment: Development
+2024-04-03 22:21:37.374 +03:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-04-03 22:21:46.649 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 2.5161 ms
+2024-04-03 22:21:46.691 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 34.6571 ms
+2024-04-03 22:25:33.568 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.1352 ms
+2024-04-03 22:25:33.572 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2950 ms
+2024-04-03 22:35:16.496 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.1110 ms
+2024-04-03 22:35:16.501 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2445 ms
+2024-04-03 22:36:55.279 +03:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 681661.5689 ms
+2024-04-03 22:36:55.461 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0922 ms
+2024-04-03 22:36:55.464 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.1628 ms
+2024-04-03 22:41:09.919 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.1234 ms
+2024-04-03 22:41:09.922 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.1455 ms
+2024-04-03 22:58:17.141 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0532 ms
+2024-04-03 22:58:17.145 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.1948 ms
+2024-04-03 22:58:29.175 +03:00 [INF] Leave namespace default
+2024-04-03 22:58:50.617 +03:00 [INF] Leave namespace default
+2024-04-03 22:58:50.646 +03:00 [INF] Leave namespace n3
+2024-04-03 23:09:04.763 +03:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 2838056.2877 ms
+2024-04-03 23:09:05.169 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.3672 ms
+2024-04-03 23:09:05.173 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2184 ms
+2024-04-03 23:09:45.649 +03:00 [INF] Leave namespace default
+2024-04-03 23:38:22.518 +03:00 [ERR] Error activating watchers for namespace default: Error while copying content to a stream.
+2024-04-03 23:49:15.272 +03:00 [ERR] Error activating watchers for namespace default: Error while copying content to a stream.
+2024-04-03 23:50:39.115 +03:00 [ERR] Error activating watchers for namespace n3: Error while copying content to a stream.
+2024-04-03 23:53:58.238 +03:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 2693019.2252 ms

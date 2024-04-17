@@ -1,0 +1,88 @@
+2024-03-20 22:09:56.850 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 22:09:56.872 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 22:09:56.873 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 22:09:56.874 +02:00 [INF] Hosting environment: Development
+2024-03-20 22:09:56.874 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-20 22:10:06.067 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.5563 ms
+2024-03-20 22:10:06.106 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 23.5321 ms
+2024-03-20 22:10:06.168 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 87.9009 ms
+2024-03-20 22:10:10.203 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 405.5739 ms
+2024-03-20 22:10:14.917 +02:00 [INF] Sending all resources for namespace kube-public
+2024-03-20 22:11:24.760 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 22:11:24.795 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 22:11:24.798 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 22:11:24.799 +02:00 [INF] Hosting environment: Development
+2024-03-20 22:11:24.800 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-20 22:11:35.415 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.4891 ms
+2024-03-20 22:11:35.446 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 22.8379 ms
+2024-03-20 22:11:35.505 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 85.4075 ms
+2024-03-20 22:11:38.898 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 385.8922 ms
+2024-03-20 22:11:43.376 +02:00 [INF] Sending all resources for namespace kube-system
+2024-03-20 22:11:43.467 +02:00 [INF] Join to namespace: kube-system
+2024-03-20 22:11:45.184 +02:00 [INF] Leave namespace kube-system
+2024-03-20 22:11:45.210 +02:00 [INF] Sending all resources for namespace kube-public
+2024-03-20 22:11:45.211 +02:00 [INF] Join to namespace: kube-public
+2024-03-20 22:11:48.140 +02:00 [INF] Leave namespace kube-public
+2024-03-20 22:11:48.164 +02:00 [INF] Sending all resources for namespace kube-node-lease
+2024-03-20 22:11:48.165 +02:00 [INF] Join to namespace: kube-node-lease
+2024-03-20 22:11:50.983 +02:00 [INF] Leave namespace kube-node-lease
+2024-03-20 22:11:51.008 +02:00 [INF] Sending all resources for namespace default
+2024-03-20 22:11:51.009 +02:00 [INF] Join to namespace: default
+2024-03-20 22:48:58.896 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 22:48:58.923 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 22:48:58.924 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 22:48:58.925 +02:00 [INF] Hosting environment: Development
+2024-03-20 22:48:58.926 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-20 22:49:10.014 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.4981 ms
+2024-03-20 22:49:10.046 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 23.4403 ms
+2024-03-20 22:49:10.110 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 89.1063 ms
+2024-03-20 22:49:13.339 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 393.1271 ms
+2024-03-20 22:49:22.286 +02:00 [INF] Sending all resources for namespace kube-system
+2024-03-20 22:50:15.101 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1209.3590 ms
+2024-03-20 22:50:19.843 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0411 ms
+2024-03-20 22:50:19.898 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.7378 ms
+2024-03-20 22:50:19.944 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 69859.1538 ms
+2024-03-20 22:50:28.068 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 72367.3034 ms
+2024-03-20 22:51:57.127 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 22:51:57.155 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 22:51:57.157 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 22:51:57.158 +02:00 [INF] Hosting environment: Development
+2024-03-20 22:51:57.158 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-20 22:52:06.761 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.8155 ms
+2024-03-20 22:52:06.792 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 22.4312 ms
+2024-03-20 22:52:06.850 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 84.5554 ms
+2024-03-20 22:52:10.260 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 401.6948 ms
+2024-03-20 22:52:16.470 +02:00 [INF] Sending all resources for namespace kube-system
+2024-03-20 22:59:42.052 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 22:59:42.077 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 22:59:42.080 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 22:59:42.081 +02:00 [INF] Hosting environment: Development
+2024-03-20 22:59:42.082 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-20 22:59:48.574 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.4330 ms
+2024-03-20 22:59:48.607 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 23.3941 ms
+2024-03-20 22:59:48.670 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 88.2509 ms
+2024-03-20 22:59:52.126 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 394.1691 ms
+2024-03-20 22:59:56.873 +02:00 [INF] Sending all resources for namespace kube-system
+2024-03-20 22:59:56.966 +02:00 [INF] Join to namespace: kube-system
+2024-03-20 23:00:03.260 +02:00 [INF] Leave namespace kube-system
+2024-03-20 23:00:03.286 +02:00 [INF] Sending all resources for namespace default
+2024-03-20 23:00:03.289 +02:00 [INF] Join to namespace: default
+2024-03-20 23:04:36.351 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 23:04:36.392 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 23:04:36.395 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 23:04:36.396 +02:00 [INF] Hosting environment: Development
+2024-03-20 23:04:36.396 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-20 23:04:45.870 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.5211 ms
+2024-03-20 23:04:45.903 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 24.5808 ms
+2024-03-20 23:04:45.965 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 89.6602 ms
+2024-03-20 23:04:49.782 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 406.6832 ms
+2024-03-20 23:04:54.834 +02:00 [INF] Sending all resources for namespace kube-system
+2024-03-20 23:04:57.125 +02:00 [INF] Leave namespace kube-system
+2024-03-20 23:04:57.152 +02:00 [INF] Sending all resources for namespace default
+2024-03-20 23:04:59.033 +02:00 [INF] Leave namespace default
+2024-03-20 23:04:59.059 +02:00 [INF] Sending all resources for namespace kube-node-lease
+2024-03-20 23:49:56.836 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-20 23:49:56.870 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-20 23:49:56.872 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 23:49:56.872 +02:00 [INF] Hosting environment: Development
+2024-03-20 23:49:56.873 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer

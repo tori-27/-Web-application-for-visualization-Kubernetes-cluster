@@ -1,0 +1,5 @@
+2024-03-29 22:27:46.313 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-29 22:27:46.344 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-29 22:27:46.346 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 22:27:46.348 +02:00 [INF] Hosting environment: Development
+2024-03-29 22:27:46.348 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer

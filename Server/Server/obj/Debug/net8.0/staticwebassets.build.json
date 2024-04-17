@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MUT1uJJ3ukY9vyLAl2ozbqcjkTCY+GApzJ9hEFXw1vo=",
+  "Source": "K8sServer",
+  "BasePath": "_content/K8sServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

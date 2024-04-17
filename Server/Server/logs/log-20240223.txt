@@ -1,0 +1,7 @@
+2024-02-23 23:32:36.594 +02:00 [INF] Now listening on: https://localhost:7254
+2024-02-23 23:32:36.624 +02:00 [INF] Now listening on: http://localhost:5035
+2024-02-23 23:32:36.626 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-23 23:32:36.626 +02:00 [INF] Hosting environment: Development
+2024-02-23 23:32:36.627 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-02-23 23:33:46.899 +02:00 [INF] HTTP GET /kubernetesHub responded 400 in 11.5914 ms
+2024-02-23 23:33:46.939 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.3958 ms

@@ -1,0 +1,28 @@
+2024-03-21 00:45:18.933 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-21 00:45:18.967 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-21 00:45:18.969 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-21 00:45:18.970 +02:00 [INF] Hosting environment: Development
+2024-03-21 00:45:18.971 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-21 00:45:31.842 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.5441 ms
+2024-03-21 00:45:31.883 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 28.3821 ms
+2024-03-21 00:45:31.960 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 112.0502 ms
+2024-03-21 00:45:36.391 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 362.5909 ms
+2024-03-21 00:45:44.479 +02:00 [INF] Sending all resources for namespace kube-system
+2024-03-21 00:45:46.660 +02:00 [INF] Leave namespace kube-system
+2024-03-21 00:45:46.688 +02:00 [INF] Sending all resources for namespace kube-node-lease
+2024-03-21 00:45:48.048 +02:00 [INF] Leave namespace kube-node-lease
+2024-03-21 00:45:48.074 +02:00 [INF] Sending all resources for namespace default
+2024-03-21 00:49:26.440 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-21 00:49:26.462 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-21 00:49:26.464 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-21 00:49:26.465 +02:00 [INF] Hosting environment: Development
+2024-03-21 00:49:26.465 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-21 00:49:33.645 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.5189 ms
+2024-03-21 00:49:33.677 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 23.5828 ms
+2024-03-21 00:49:33.740 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 88.4973 ms
+2024-03-21 00:49:37.803 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 315.8382 ms
+2024-03-21 00:49:46.847 +02:00 [INF] Sending all resources for namespace kube-node-lease
+2024-03-21 00:49:48.701 +02:00 [INF] Leave namespace kube-node-lease
+2024-03-21 00:49:48.729 +02:00 [INF] Sending all resources for namespace default
+2024-03-21 00:49:50.605 +02:00 [INF] Leave namespace default
+2024-03-21 00:49:50.659 +02:00 [INF] Sending all resources for namespace kube-system

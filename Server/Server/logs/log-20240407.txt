@@ -1,0 +1,301 @@
+2024-04-07 00:00:24.191 +03:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 79562132.5222 ms
+2024-04-07 00:00:24.628 +03:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.3397 ms
+2024-04-07 00:00:24.638 +03:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.7451 ms
+2024-04-07 00:00:25.306 +03:00 [ERR] Error activating watchers for namespace n1: Error while copying content to a stream.
+2024-04-07 00:00:26.349 +03:00 [INF] Leave namespace default
+2024-04-07 00:00:26.403 +03:00 [INF] Resourses: {
+  "Pods": {
+    "ApiVersion": "v1",
+    "Items": [],
+    "Kind": "PodList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "ConfigMaps": {
+    "ApiVersion": "v1",
+    "Items": [
+      {
+        "ApiVersion": null,
+        "BinaryData": null,
+        "Data": {
+          "ca.crt": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTI0MDMwNTIwNTE1NFoXDTM0MDMwNDIwNTE1NFowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMdK\nwCSRGTtDlh+loTyB7x8IvxZ+gMVeGh6979sZE5dPHhoAQi1w6qJge3GADpR9PBDA\n76K88bmUUeWDRVIMkwL7AWvpir2VvwWBeoMB6a/i/aiLIJju+qzDdM3wlDRrqsJ4\nn3A0i51iHCR0uJMTodkmNHDPH900t+Vx8iuu9spSAiwi4OAzhStPWzLc5Fl1FuLs\nEeBVdbvvFBpEJEKtT8VfLhoMmnup92cBsT4rbmEPZDogIMH7JGfjfr2ugzNdFMEP\nql5JZ4AgPNL48IBZ/c4GZFFtlmFjhou4536s/FGU7geiKa3PdGCcf4m18mjL998m\njZgthWqahIL46dgTRLsCAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBTbgWdkKOx/6wuY/sJP7EUIUEEFaTANBgkqhkiG9w0BAQsFAAOCAQEArSGgsfOS\n09QGvKeHV121B2G6Y7/UGzLf/vb7b6/NfsoErxPJ9ZOOwQ7RJKM2Bp6klc3G1ar0\nNp+YcwRGS+8GMUxFzSxq28PIz2Ran/CmUnPv5wYVGX0lM7day/ImHxCgvceYzJry\nIazODQTGOvkuC3lDsW0MzKkPCLJF7iT1uyjIof7dueNlnuHvD6qg85/KVpx6cyfI\nkHPLmvCfZWjPyARX2+0wYG8s04Em3GU0Yw9fhHbJaZWEU8Mhi9WSrGjJalPrYHFn\nKN6nl3yAOrsUclvwsOKIqx7N0TkKuPhT7j4YTfsJDYxSLXSLC3WbCK2euyxTEdFB\nYMCuQ5ZokoXIyA==\n-----END CERTIFICATE-----\n"
+        },
+        "Immutable": null,
+        "Kind": null,
+        "Metadata": {
+          "Annotations": {
+            "kubernetes.io/description": "Contains a CA bundle that can be used to verify the kube-apiserver when using internal endpoints such as the internal service IP or kubernetes.default.svc. No other usage is guaranteed across distributions of Kubernetes clusters."
+          },
+          "CreationTimestamp": "2024-04-03T19:20:49Z",
+          "DeletionGracePeriodSeconds": null,
+          "DeletionTimestamp": null,
+          "Finalizers": null,
+          "GenerateName": null,
+          "Generation": null,
+          "Labels": null,
+          "ManagedFields": [
+            {
+              "ApiVersion": "v1",
+              "FieldsType": "FieldsV1",
+              "FieldsV1": {
+                "ValueKind": 1
+              },
+              "Manager": "kube-controller-manager",
+              "Operation": "Update",
+              "Subresource": null,
+              "Time": "2024-04-03T19:20:49Z"
+            }
+          ],
+          "Name": "kube-root-ca.crt",
+          "NamespaceProperty": "default",
+          "OwnerReferences": null,
+          "ResourceVersion": "314",
+          "SelfLink": null,
+          "Uid": "348072fe-8ad5-474e-8de4-32973fba0fb3"
+        }
+      }
+    ],
+    "Kind": "ConfigMapList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "LimitRanges": {
+    "ApiVersion": "v1",
+    "Items": [],
+    "Kind": "LimitRangeList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "PersistentVolumesClaim": {
+    "ApiVersion": "v1",
+    "Items": [],
+    "Kind": "PersistentVolumeClaimList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "ResourceQuotas": {
+    "ApiVersion": "v1",
+    "Items": [],
+    "Kind": "ResourceQuotaList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "Services": {
+    "ApiVersion": "v1",
+    "Items": [
+      {
+        "ApiVersion": null,
+        "Kind": null,
+        "Metadata": {
+          "Annotations": null,
+          "CreationTimestamp": "2024-04-03T19:20:35Z",
+          "DeletionGracePeriodSeconds": null,
+          "DeletionTimestamp": null,
+          "Finalizers": null,
+          "GenerateName": null,
+          "Generation": null,
+          "Labels": {
+            "component": "apiserver",
+            "provider": "kubernetes"
+          },
+          "ManagedFields": [
+            {
+              "ApiVersion": "v1",
+              "FieldsType": "FieldsV1",
+              "FieldsV1": {
+                "ValueKind": 1
+              },
+              "Manager": "kube-apiserver",
+              "Operation": "Update",
+              "Subresource": null,
+              "Time": "2024-04-03T19:20:35Z"
+            }
+          ],
+          "Name": "kubernetes",
+          "NamespaceProperty": "default",
+          "OwnerReferences": null,
+          "ResourceVersion": "194",
+          "SelfLink": null,
+          "Uid": "427d6301-c4d0-4978-b23c-bb371a10ba16"
+        },
+        "Spec": {
+          "AllocateLoadBalancerNodePorts": null,
+          "ClusterIP": "10.96.0.1",
+          "ClusterIPs": [
+            "10.96.0.1"
+          ],
+          "ExternalIPs": null,
+          "ExternalName": null,
+          "ExternalTrafficPolicy": null,
+          "HealthCheckNodePort": null,
+          "InternalTrafficPolicy": "Cluster",
+          "IpFamilies": [
+            "IPv4"
+          ],
+          "IpFamilyPolicy": "SingleStack",
+          "LoadBalancerClass": null,
+          "LoadBalancerIP": null,
+          "LoadBalancerSourceRanges": null,
+          "Ports": [
+            {
+              "AppProtocol": null,
+              "Name": "https",
+              "NodePort": null,
+              "Port": 443,
+              "Protocol": "TCP",
+              "TargetPort": {
+                "Value": "8443"
+              }
+            }
+          ],
+          "PublishNotReadyAddresses": null,
+          "Selector": null,
+          "SessionAffinity": "None",
+          "SessionAffinityConfig": null,
+          "Type": "ClusterIP"
+        },
+        "Status": {
+          "Conditions": null,
+          "LoadBalancer": {
+            "Ingress": null
+          }
+        }
+      }
+    ],
+    "Kind": "ServiceList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "Secrets": {
+    "ApiVersion": "v1",
+    "Items": [],
+    "Kind": "SecretList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "DaemonSets": {
+    "ApiVersion": "apps/v1",
+    "Items": [],
+    "Kind": "DaemonSetList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "Deployments": {
+    "ApiVersion": "apps/v1",
+    "Items": [],
+    "Kind": "DeploymentList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "ReplicaSests": {
+    "ApiVersion": "apps/v1",
+    "Items": [],
+    "Kind": "ReplicaSetList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "StatefulSets": {
+    "ApiVersion": "apps/v1",
+    "Items": [],
+    "Kind": "StatefulSetList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "CronJobs": {
+    "ApiVersion": "batch/v1",
+    "Items": [],
+    "Kind": "CronJobList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "Jobs": {
+    "ApiVersion": "batch/v1",
+    "Items": [],
+    "Kind": "JobList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "Ingresses": {
+    "ApiVersion": "networking.k8s.io/v1",
+    "Items": [],
+    "Kind": "IngressList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  },
+  "NetworkPolicies": {
+    "ApiVersion": "networking.k8s.io/v1",
+    "Items": [],
+    "Kind": "NetworkPolicyList",
+    "Metadata": {
+      "ContinueProperty": null,
+      "RemainingItemCount": null,
+      "ResourceVersion": "212875",
+      "SelfLink": null
+    }
+  }
+}
+2024-04-07 00:11:27.233 +03:00 [ERR] Error activating watchers for namespace n1: Error while copying content to a stream.
+2024-04-07 00:18:38.677 +03:00 [ERR] Error activating watchers for namespace n1: Error while copying content to a stream.
+2024-04-07 00:24:58.914 +03:00 [ERR] Error activating watchers for namespace n1: Error while copying content to a stream.
+2024-04-07 00:50:25.075 +03:00 [ERR] Error activating watchers for namespace default: Error while copying content to a stream.
+2024-04-07 00:52:42.069 +03:00 [ERR] Error activating watchers for namespace kube-system: Error while copying content to a stream.
+2024-04-07 00:54:53.295 +03:00 [ERR] Error activating watchers for namespace kube-system: Error while copying content to a stream.
+2024-04-07 01:08:07.272 +03:00 [ERR] Error activating watchers for namespace kube-system: Error while copying content to a stream.
+2024-04-07 01:30:34.259 +03:00 [ERR] Error activating watchers for namespace kube-system: Error while copying content to a stream.
+2024-04-07 12:58:50.417 +03:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 51412668.0258 ms

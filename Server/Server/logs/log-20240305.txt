@@ -1,0 +1,69 @@
+2024-03-05 23:17:17.664 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-05 23:17:17.703 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-05 23:17:17.705 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-05 23:17:17.706 +02:00 [INF] Hosting environment: Development
+2024-03-05 23:17:17.707 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-05 23:29:13.030 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 3.6722 ms
+2024-03-05 23:29:13.096 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 29.5332 ms
+2024-03-05 23:29:13.191 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 160.9781 ms
+2024-03-05 23:29:13.205 +02:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'k8s.IKubernetes' while attempting to activate 'K8sServer.Hubs.KubernetesHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-03-05 23:29:13.211 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 48.4662 ms
+2024-03-05 23:35:47.611 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-05 23:35:47.634 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-05 23:35:47.635 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-05 23:35:47.636 +02:00 [INF] Hosting environment: Development
+2024-03-05 23:35:47.636 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-05 23:36:06.471 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 2.0673 ms
+2024-03-05 23:36:06.506 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 25.3784 ms
+2024-03-05 23:36:06.565 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 87.3541 ms
+2024-03-05 23:36:06.575 +02:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'System.Lazy`1[K8sServer.Services.KubernetesClientService]' while attempting to activate 'K8sServer.Hubs.KubernetesHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-03-05 23:36:06.582 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 37.5288 ms
+2024-03-05 23:42:44.304 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-05 23:42:44.330 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-05 23:42:44.332 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-05 23:42:44.333 +02:00 [INF] Hosting environment: Development
+2024-03-05 23:42:44.333 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-05 23:43:00.073 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.9901 ms
+2024-03-05 23:43:00.109 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 26.5652 ms
+2024-03-05 23:43:00.173 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 93.4645 ms
+2024-03-05 23:43:00.188 +02:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'k8s.IKubernetes' while attempting to activate 'K8sServer.Hubs.KubernetesHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-03-05 23:43:00.197 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 48.6256 ms
+2024-03-05 23:57:44.958 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-05 23:57:44.989 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-05 23:57:44.991 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-05 23:57:44.991 +02:00 [INF] Hosting environment: Development
+2024-03-05 23:57:44.992 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-05 23:57:56.883 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.6162 ms
+2024-03-05 23:57:56.914 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 23.2332 ms
+2024-03-05 23:57:56.972 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 84.6487 ms
+2024-03-05 23:57:56.984 +02:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'k8s.IKubernetes' while attempting to activate 'K8sServer.Hubs.KubernetesHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-03-05 23:57:56.991 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 39.2678 ms
+2024-03-05 23:58:38.881 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 649.3258 ms

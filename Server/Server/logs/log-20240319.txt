@@ -1,0 +1,115 @@
+2024-03-19 15:25:20.563 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-19 15:25:20.589 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-19 15:25:20.591 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 15:25:20.592 +02:00 [INF] Hosting environment: Development
+2024-03-19 15:25:20.592 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-19 15:26:04.770 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 3.2750 ms
+2024-03-19 15:26:04.837 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 38.9307 ms
+2024-03-19 15:26:04.944 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 168.1233 ms
+2024-03-19 15:26:18.237 +02:00 [ERR] HTTP POST /api/KubernetesCluster/upload responded 500 in 567.9502 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at k8s.KubernetesClientConfiguration.InitializeContext(K8SConfiguration k8SConfig, String currentContext)
+   at k8s.KubernetesClientConfiguration.GetKubernetesClientConfiguration(String currentContext, String masterUrl, K8SConfiguration k8SConfig)
+   at k8s.KubernetesClientConfiguration.BuildConfigFromConfigFileAsync(Stream kubeconfig, String currentContext, String masterUrl)
+   at k8s.KubernetesClientConfiguration.BuildConfigFromConfigFile(Stream kubeconfig, String currentContext, String masterUrl)
+   at K8sServer.Services.KubernetesClientService.InitializeWithKubeConfig(Byte[] kubeConfigContent) in C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer\Services\KubernetesClientService.cs:line 34
+   at K8sServer.Controllers.KubernetesClusterController.UploadKubeConfig(IFormFile kubeConfigFile) in C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer\Controllers\KubernetesConfigController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-03-19 15:26:18.253 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at k8s.KubernetesClientConfiguration.InitializeContext(K8SConfiguration k8SConfig, String currentContext)
+   at k8s.KubernetesClientConfiguration.GetKubernetesClientConfiguration(String currentContext, String masterUrl, K8SConfiguration k8SConfig)
+   at k8s.KubernetesClientConfiguration.BuildConfigFromConfigFileAsync(Stream kubeconfig, String currentContext, String masterUrl)
+   at k8s.KubernetesClientConfiguration.BuildConfigFromConfigFile(Stream kubeconfig, String currentContext, String masterUrl)
+   at K8sServer.Services.KubernetesClientService.InitializeWithKubeConfig(Byte[] kubeConfigContent) in C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer\Services\KubernetesClientService.cs:line 34
+   at K8sServer.Controllers.KubernetesClusterController.UploadKubeConfig(IFormFile kubeConfigFile) in C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer\Controllers\KubernetesConfigController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-19 15:26:19.581 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 14.3851 ms
+2024-03-19 15:32:18.365 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-19 15:32:18.408 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-19 15:32:18.410 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 15:32:18.411 +02:00 [INF] Hosting environment: Development
+2024-03-19 15:32:18.411 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-19 15:32:41.513 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 3.2437 ms
+2024-03-19 15:32:41.571 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 44.8844 ms
+2024-03-19 15:32:41.672 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 146.1228 ms
+2024-03-19 15:32:47.515 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 13.5364 ms
+2024-03-19 15:32:47.600 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 742.3048 ms
+2024-03-19 15:44:06.619 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-19 15:44:06.650 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-19 15:44:06.652 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 15:44:06.654 +02:00 [INF] Hosting environment: Development
+2024-03-19 15:44:06.656 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-19 15:44:40.748 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.5713 ms
+2024-03-19 15:44:40.792 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 29.0460 ms
+2024-03-19 15:44:40.862 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 103.7945 ms
+2024-03-19 15:44:44.637 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 492.1704 ms
+2024-03-19 16:23:16.986 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-19 16:23:17.011 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-19 16:23:17.013 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 16:23:17.013 +02:00 [INF] Hosting environment: Development
+2024-03-19 16:23:17.014 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-19 16:23:35.461 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 2.4229 ms
+2024-03-19 16:23:35.501 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 31.5366 ms
+2024-03-19 16:23:35.615 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 152.0755 ms
+2024-03-19 16:23:42.529 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 529.9769 ms
+2024-03-19 16:28:56.934 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.9187 ms
+2024-03-19 16:28:56.946 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2288 ms
+2024-03-19 16:29:25.277 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0537 ms
+2024-03-19 16:29:25.281 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.1946 ms
+2024-03-19 16:30:08.816 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 43485.2018 ms
+2024-03-19 16:30:09.781 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 44491.4629 ms
+2024-03-19 19:58:03.789 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-19 19:58:03.815 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-19 19:58:03.817 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 19:58:03.817 +02:00 [INF] Hosting environment: Development
+2024-03-19 19:58:03.818 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-19 19:58:13.457 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 2.3736 ms
+2024-03-19 19:58:13.495 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 29.4349 ms
+2024-03-19 19:58:13.584 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 124.3150 ms
+2024-03-19 19:58:17.893 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 538.7579 ms
+2024-03-19 22:00:27.816 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-19 22:00:27.839 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-19 22:00:27.841 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-19 22:00:27.841 +02:00 [INF] Hosting environment: Development
+2024-03-19 22:00:27.842 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer

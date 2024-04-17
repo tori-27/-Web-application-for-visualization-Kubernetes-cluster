@@ -1,0 +1,24 @@
+2024-02-19 00:15:46.929 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 94.3010 ms
+2024-02-19 00:16:12.843 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 13.4178 ms
+2024-02-19 00:16:18.431 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 647.7941 ms
+2024-02-19 01:31:13.142 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 6.5588 ms
+2024-02-19 01:31:13.142 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 6.5586 ms
+2024-02-19 01:31:22.253 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 9117.8475 ms
+2024-02-19 01:31:22.452 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 172500.6675 ms
+2024-02-19 01:31:22.456 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 198825.4524 ms
+2024-02-19 01:31:22.499 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 31435.8696 ms
+2024-02-19 01:31:22.503 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 31441.2972 ms
+2024-02-19 01:31:22.769 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 4204613.0610 ms
+2024-02-19 01:31:22.774 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 4504047.4944 ms
+2024-02-19 01:31:22.775 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 4178838.0579 ms
+2024-02-19 01:34:30.053 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.1056 ms
+2024-02-19 01:34:30.056 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0472 ms
+2024-02-19 11:48:59.299 +02:00 [INF] Now listening on: https://localhost:7254
+2024-02-19 11:48:59.323 +02:00 [INF] Now listening on: http://localhost:5035
+2024-02-19 11:48:59.324 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 11:48:59.325 +02:00 [INF] Hosting environment: Development
+2024-02-19 11:48:59.326 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-02-19 11:49:31.948 +02:00 [INF] HTTP GET /kubernetesHub responded 400 in 16.3815 ms
+2024-02-19 11:49:32.018 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.4448 ms
+2024-02-19 11:49:50.136 +02:00 [INF] HTTP GET /kubernetesHub{default} responded 404 in 0.1688 ms
+2024-02-19 11:49:52.845 +02:00 [INF] HTTP GET /kubernetesHub responded 400 in 0.2137 ms

@@ -1,0 +1,36 @@
+2024-03-12 19:43:19.383 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-12 19:43:19.411 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-12 19:43:19.413 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-12 19:43:19.413 +02:00 [INF] Hosting environment: Development
+2024-03-12 19:43:19.414 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-12 19:44:21.894 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-12 19:44:21.933 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-12 19:44:21.935 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-12 19:44:21.936 +02:00 [INF] Hosting environment: Development
+2024-03-12 19:44:21.936 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-12 19:44:55.819 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 3.8680 ms
+2024-03-12 19:44:55.930 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 59.8605 ms
+2024-03-12 19:44:56.038 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 163.4930 ms
+2024-03-12 19:45:07.547 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 684.5179 ms
+2024-03-12 19:48:23.216 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.3325 ms
+2024-03-12 19:48:23.220 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2918 ms
+2024-03-12 21:31:29.668 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-12 21:31:29.701 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-12 21:31:29.703 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-12 21:31:29.704 +02:00 [INF] Hosting environment: Development
+2024-03-12 21:31:29.704 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-12 21:31:47.874 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 4.2006 ms
+2024-03-12 21:31:47.917 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 32.9772 ms
+2024-03-12 21:31:48.013 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 139.1104 ms
+2024-03-12 21:31:52.934 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 531.0561 ms
+2024-03-12 21:33:09.227 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.1906 ms
+2024-03-12 21:33:09.231 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 0.2213 ms
+2024-03-12 22:29:12.754 +02:00 [INF] Now listening on: https://localhost:7254
+2024-03-12 22:29:12.791 +02:00 [INF] Now listening on: http://localhost:5035
+2024-03-12 22:29:12.793 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-12 22:29:12.794 +02:00 [INF] Hosting environment: Development
+2024-03-12 22:29:12.794 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-03-12 22:29:20.660 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 2.4847 ms
+2024-03-12 22:29:20.704 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 35.0906 ms
+2024-03-12 22:29:20.799 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 135.5428 ms
+2024-03-12 22:29:24.901 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 521.5725 ms

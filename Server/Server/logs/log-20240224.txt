@@ -1,0 +1,117 @@
+2024-02-24 23:28:48.815 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 7.4646 ms
+2024-02-24 23:28:49.000 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 184.4681 ms
+2024-02-24 23:28:55.917 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 696.1902 ms
+2024-02-24 23:43:50.900 +02:00 [INF] Now listening on: https://localhost:7254
+2024-02-24 23:43:50.924 +02:00 [INF] Now listening on: http://localhost:5035
+2024-02-24 23:43:50.926 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-24 23:43:50.926 +02:00 [INF] Hosting environment: Development
+2024-02-24 23:43:50.927 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-02-24 23:44:03.261 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 438.8484 ms
+2024-02-24 23:44:05.180 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 1079.6666 ms
+2024-02-24 23:44:05.687 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.2676 ms
+2024-02-24 23:44:06.292 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0458 ms
+2024-02-24 23:44:06.638 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0334 ms
+2024-02-24 23:44:06.704 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 1017.2806 ms
+2024-02-24 23:44:07.319 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 1019.0049 ms
+2024-02-24 23:44:07.667 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 1021.7218 ms
+2024-02-24 23:44:23.011 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.0331 ms
+2024-02-24 23:44:24.037 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 1012.0124 ms
+2024-02-24 23:44:29.642 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 73.6031 ms
+2024-02-24 23:44:32.199 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 1032.0993 ms
+2024-02-24 23:45:46.122 +02:00 [INF] Now listening on: https://localhost:7254
+2024-02-24 23:45:46.147 +02:00 [INF] Now listening on: http://localhost:5035
+2024-02-24 23:45:46.149 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-24 23:45:46.149 +02:00 [INF] Hosting environment: Development
+2024-02-24 23:45:46.150 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-02-24 23:45:55.805 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.3284 ms
+2024-02-24 23:45:55.828 +02:00 [ERR] HTTP POST /kubernetesHub/negotiate responded 500 in 14.3799 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+/kubernetesHub/negotiate
+/kubernetesHub/negotiate
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-24 23:45:55.834 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+/kubernetesHub/negotiate
+/kubernetesHub/negotiate
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-24 23:45:55.889 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 78.2724 ms
+2024-02-24 23:46:03.144 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 398.2686 ms
+2024-02-24 23:48:32.934 +02:00 [INF] Now listening on: https://localhost:7254
+2024-02-24 23:48:32.964 +02:00 [INF] Now listening on: http://localhost:5035
+2024-02-24 23:48:32.966 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-24 23:48:32.967 +02:00 [INF] Hosting environment: Development
+2024-02-24 23:48:32.968 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-02-24 23:48:40.549 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 2.0136 ms
+2024-02-24 23:48:40.572 +02:00 [ERR] HTTP POST /kubernetesHub/negotiate responded 500 in 13.7612 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+/kubernetesHub/negotiate
+/kubernetesHub/negotiate
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-24 23:48:40.577 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+/kubernetesHub/negotiate
+/kubernetesHub/negotiate
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-24 23:48:40.638 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 83.6444 ms
+2024-02-24 23:49:04.739 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 390.1436 ms
+2024-02-24 23:53:25.576 +02:00 [INF] Now listening on: https://localhost:7254
+2024-02-24 23:53:25.602 +02:00 [INF] Now listening on: http://localhost:5035
+2024-02-24 23:53:25.604 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-24 23:53:25.605 +02:00 [INF] Hosting environment: Development
+2024-02-24 23:53:25.605 +02:00 [INF] Content root path: C:\University\ThirdYear\BachelorProject\K8sServer\K8sServer
+2024-02-24 23:53:36.547 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 1.5768 ms
+2024-02-24 23:53:36.587 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 29.4200 ms
+2024-02-24 23:53:36.642 +02:00 [INF] HTTP GET /api/Namespace/stream responded 200 in 88.5241 ms
+2024-02-24 23:53:36.656 +02:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'k8s.IKubernetes' while attempting to activate 'K8sServer.Hubs.KubernetesHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-02-24 23:53:36.661 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 38.9973 ms
+2024-02-24 23:53:41.588 +02:00 [INF] HTTP POST /api/KubernetesCluster/upload responded 200 in 395.8211 ms
+2024-02-24 23:59:27.486 +02:00 [INF] HTTP OPTIONS /kubernetesHub/negotiate responded 204 in 0.2749 ms
+2024-02-24 23:59:27.494 +02:00 [INF] HTTP POST /kubernetesHub/negotiate responded 200 in 2.5387 ms
+2024-02-24 23:59:27.505 +02:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'k8s.IKubernetes' while attempting to activate 'K8sServer.Hubs.KubernetesHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+2024-02-24 23:59:27.508 +02:00 [INF] HTTP CONNECT /kubernetesHub responded 200 in 6.2154 ms
